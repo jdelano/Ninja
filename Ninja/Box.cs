@@ -25,7 +25,7 @@ namespace Ninja
         {
             return (throwable.Location.y == Location.y &&
                 (throwable.Location.x == Location.x ||
-                throwable.Location.x == Location.x + 1));
+                throwable.Location.x == Location.x + 1)); 
         }
     }
 }
