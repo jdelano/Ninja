@@ -8,6 +8,7 @@ namespace Ninja
         {
             Game game = new Game();
             game.Run();
+
         }
     }
 }

@@ -38,7 +38,7 @@ namespace Ninja
                     break;
                 case Direction.West:
                     Location = (Location.x - 1, Location.y);
-                    break;
+                    break; 
             }
         }
     }
