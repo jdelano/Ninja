@@ -30,6 +30,7 @@ namespace Ninja
                 UpdateGame();
                 RenderOutput();
             } while (isPlaying);
+            Console.Clear();
             Console.WriteLine("Thank you for playing!");
             Console.WriteLine($"Your score was: {score}");
         }
