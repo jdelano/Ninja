@@ -1,13 +1,6 @@
 ﻿using System;
 
-namespace Ninja
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Game game = new Game();
-            game.Run();
-        }
-    }
-}
+using Ninja;
+
+Game game = new();
+game.Run();
